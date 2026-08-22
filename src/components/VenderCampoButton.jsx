@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '5491100000000';
+const WHATSAPP_NUMBER = '5491169839411';
 const MENSAJE = 'Hola, ¿cómo estás? Quiero vender mi campo con ustedes';
 
 export default function VenderCampoButton({ className = '', variant = 'solid' }) {

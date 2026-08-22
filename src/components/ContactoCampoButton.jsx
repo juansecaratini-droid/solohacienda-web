@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
-const DEFAULT_WHATSAPP = '5491100000000';
-const DEFAULT_DISPLAY = '+54 9 11 0000-0000';
+const DEFAULT_WHATSAPP = '5491169839411';
+const DEFAULT_DISPLAY = '+54 9 11 6983-9411';
 
 // "Campo Lincoln" -> "Lincoln", "Estancia Santa Inés" -> "Santa Inés", so the
 // prefilled message reads naturally regardless of how the campo is named.

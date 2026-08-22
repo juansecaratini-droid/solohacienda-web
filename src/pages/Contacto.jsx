@@ -1,7 +1,7 @@
 import ScrollReveal from '../components/ScrollReveal';
 import VenderCampoButton from '../components/VenderCampoButton';
 
-const WHATSAPP_NUMBER = '5491100000000';
+const WHATSAPP_NUMBER = '5491169839411';
 
 export default function Contacto() {
   return (

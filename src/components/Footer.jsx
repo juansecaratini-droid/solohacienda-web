@@ -24,8 +24,8 @@ export default function Footer() {
           <p className="uppercase tracking-widest text-cream/50 mb-3">Contacto</p>
           <ul className="space-y-2 text-cream/80">
             <li>
-              <a href="https://wa.me/5491100000000" target="_blank" rel="noreferrer" className="hover:text-sand transition-colors">
-                +54 9 11 0000-0000
+              <a href="https://wa.me/5491169839411" target="_blank" rel="noreferrer" className="hover:text-sand transition-colors">
+                +54 9 11 6983-9411
               </a>
             </li>
             <li>

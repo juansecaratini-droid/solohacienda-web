@@ -44,7 +44,7 @@ export default function Navbar() {
           ))}
         </div>
         <a
-          href="https://wa.me/5491100000000"
+          href="https://wa.me/5491169839411"
           target="_blank"
           rel="noreferrer"
           className="hidden md:inline-flex items-center gap-2 rounded-full border border-olive px-5 py-2 text-sm text-olive-dark hover:bg-olive hover:text-cream transition-colors"
