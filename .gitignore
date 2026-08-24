@@ -4,3 +4,4 @@ dist
 .vite
 pdfs-import
 .claude/settings.local.json
+.backup-sin-marca

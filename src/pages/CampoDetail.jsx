@@ -95,9 +95,9 @@ export default function CampoDetail() {
             </div>
           </ScrollReveal>
 
-          <ScrollReveal delay={0.14}>
-            <h2 className="font-serif text-2xl mt-12 mb-4 text-olive-dark">Imagen satelital</h2>
-            {campo.imagenSatelital ? (
+          {campo.imagenSatelital && (
+            <ScrollReveal delay={0.14}>
+              <h2 className="font-serif text-2xl mt-12 mb-4 text-olive-dark">Imagen satelital</h2>
               <button
                 type="button"
                 onClick={() => setLightboxIndex(satelitalIndex)}
@@ -109,14 +109,8 @@ export default function CampoDetail() {
                   className="w-full max-h-[600px] object-contain transition-transform duration-300 group-hover:scale-[1.02]"
                 />
               </button>
-            ) : (
-              <div className="aspect-[16/10] rounded-sm bg-gradient-to-br from-sand via-cream-deep to-olive-light/40 flex items-center justify-center">
-                <span className="text-ink-soft/60 text-sm uppercase tracking-widest">
-                  Imagen satelital próximamente
-                </span>
-              </div>
-            )}
-          </ScrollReveal>
+            </ScrollReveal>
+          )}
 
           <ScrollReveal delay={0.16}>
             <h2 className="font-serif text-2xl mt-12 mb-4 text-olive-dark">Galería</h2>
