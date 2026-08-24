@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { gtagReportConversion } from '../utils/gtagConversion';
 
 const DEFAULT_WHATSAPP = '5491169839411';
 const DEFAULT_DISPLAY = '+54 9 11 6983-9411';
@@ -59,7 +60,10 @@ export default function ContactoCampoButton({ campo, label = 'Consultar por este
             href={whatsappHref}
             target="_blank"
             rel="noreferrer"
-            onClick={() => setOpen(false)}
+            onClick={() => {
+              gtagReportConversion();
+              setOpen(false);
+            }}
             className="block px-4 py-3 text-sm text-ink hover:bg-cream-dim transition-colors"
           >
             Abrir WhatsApp
