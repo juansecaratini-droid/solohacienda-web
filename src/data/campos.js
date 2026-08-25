@@ -421,6 +421,193 @@ export const CAMPOS = [
       '/campos/saladillo-190/galeria-3.jpg',
     ],
   },
+  {
+    id: 'veinticinco-de-mayo',
+    nombre: 'Campo 25 de Mayo',
+    zona: 'Valdés, 25 de Mayo, Buenos Aires',
+    // El informe indica 210 hectareas; se postea 200 (redondeo comercial).
+    hectareas: 200,
+    tipo: 'Agrícola-ganadero',
+    aptitud: 'Agricultura (soja, maíz, trigo, girasol) + ganadería',
+    precio: 'USD 1.800.000',
+    precioPorHectarea: 'USD 9.000/ha',
+    resumen:
+      'Campo en Valdés, partido de 25 de Mayo. Cuenta con una linda arboleda, casa principal, casa de encargado y galpón. Los suelos combinan zonas altas aptas para agricultura (soja, maíz, trigo y girasol) con sectores más bajos de aptitud ganadera, logrando el balance que buscan los campos mixtos de la zona.',
+    destacados: [
+      'Suelos aptos para soja, maíz, trigo y girasol',
+      'Arboleda + casa principal y de encargado',
+      'Balance agrícola-ganadero',
+    ],
+    suelos: 'Clases IIIws, IVws, VIws',
+    contacto: {
+      whatsapp: '5491169839411',
+      telefonoDisplay: '+54 9 11 6983-9411',
+      instagram: '@campos.solohacienda',
+    },
+    fotoPrincipal: '/campos/veinticinco-de-mayo/principal.jpg',
+    imagenSatelital: '/campos/veinticinco-de-mayo/satelital.jpg',
+    galeria: [
+      '/campos/veinticinco-de-mayo/galeria-1.jpg',
+      '/campos/veinticinco-de-mayo/galeria-2.jpg',
+      '/campos/veinticinco-de-mayo/galeria-3.jpg',
+    ],
+  },
+  {
+    id: 'mercedes-140',
+    nombre: 'Campo Mercedes 140',
+    zona: 'Mercedes, Buenos Aires',
+    hectareas: 140,
+    tipo: 'Agrícola-ganadero',
+    aptitud: 'Agricultura (80%) + ganadería',
+    precio: 'USD 1.470.000',
+    precioPorHectarea: 'USD 10.500/ha',
+    resumen:
+      'Campo de 140 hectáreas en Mercedes, 80% agrícola. Acceso a 6 km de asfalto, mejoras completas y linda arboleda: casa principal, casa de encargado, cargadero, luz trifásica y alambrados en buen estado, con 2 molinos y 4 aguadas.',
+    destacados: [
+      '80% de aptitud agrícola',
+      '2 molinos + 4 aguadas',
+      'A 6 km de asfalto',
+    ],
+    sembrado: '~112 ha (80% agrícola)',
+    contacto: {
+      whatsapp: '5491169839411',
+      telefonoDisplay: '+54 9 11 6983-9411',
+      instagram: '@campos.solohacienda',
+    },
+    fotoPrincipal: '/campos/mercedes-140/principal.jpg',
+    imagenSatelital: '/campos/mercedes-140/satelital.jpg',
+    galeria: [
+      '/campos/mercedes-140/galeria-1.jpg',
+      '/campos/mercedes-140/galeria-2.jpg',
+      '/campos/mercedes-140/galeria-3.jpg',
+    ],
+  },
+  {
+    id: 'saladillo-1200',
+    nombre: 'Campo Saladillo 1200',
+    zona: 'Saladillo, Buenos Aires',
+    hectareas: 1200,
+    tipo: 'Ganadero-agrícola',
+    aptitud: 'Cría e invernada + agricultura (33%)',
+    precio: 'USD 5.400.000',
+    precioPorHectarea: 'USD 4.500/ha',
+    resumen:
+      'Campo de 1.200 hectáreas en el partido de Saladillo, con excelente acceso por Ruta Provincial 51 asfaltada y 3 km de camino de tierra, a 22 km de Saladillo, 30 km de 25 de Mayo y 235 km de CABA. Casco de estancia de gran valor histórico, con casa principal construida en 1877 que perteneció a Ataliva Roca, rodeada por una añosa arboleda. Aptitud mixta, aproximadamente un tercio agrícola, con sectores de costa del arroyo Saladillo.',
+    destacados: [
+      'Casa histórica de 1877, perteneció a Ataliva Roca',
+      '25 potreros + planta de silos y balanza',
+      '5 molinos con tanques australianos',
+    ],
+    sembrado: '~400 ha (33% agrícola)',
+    contacto: {
+      whatsapp: '5491169839411',
+      telefonoDisplay: '+54 9 11 6983-9411',
+      instagram: '@campos.solohacienda',
+    },
+    fotoPrincipal: '/campos/saladillo-1200/principal.jpg',
+    imagenSatelital: '/campos/saladillo-1200/satelital.jpg',
+    galeria: [
+      '/campos/saladillo-1200/galeria-1.jpg',
+      '/campos/saladillo-1200/galeria-2.jpg',
+      '/campos/saladillo-1200/galeria-3.jpg',
+    ],
+  },
+  {
+    id: 'mercedes-450',
+    nombre: 'Campo Mercedes 450',
+    zona: 'Mercedes, Buenos Aires',
+    // El informe indica 453 hectareas; se postea 450 (redondeo comercial).
+    hectareas: 450,
+    tipo: 'Agrícola-ganadero',
+    aptitud: 'Agricultura (40%) + ganadería',
+    // Precio sin sufijo "/ha" en el mensaje original; se asume por hectarea
+    // igual que el campo Mercedes 500 (mismo valor, misma zona).
+    precio: 'USD 3.600.000',
+    precioPorHectarea: 'USD 8.000/ha',
+    resumen:
+      'Campo agrícola-ganadero de 450 hectáreas en Mercedes, Buenos Aires, con 40% de aptitud agrícola. Casa principal de importantes dimensiones, casa de huéspedes y casa de encargado, más pileta de natación en el casco. Infraestructura productiva completa: galpón cerrado con techo parabólico y piso de hormigón, tres silos de chapa para acopio de cereal, manga y corrales para bovinos, manga y corrales para cerdos, y 15 potreros con bebida.',
+    destacados: [
+      '40% de aptitud agrícola',
+      'Casa principal + casa de huéspedes + pileta',
+      'Corrales para bovinos y para cerdos',
+    ],
+    sembrado: '~180 ha (40% agrícola)',
+    contacto: {
+      whatsapp: '5491169839411',
+      telefonoDisplay: '+54 9 11 6983-9411',
+      instagram: '@campos.solohacienda',
+    },
+    fotoPrincipal: '/campos/mercedes-450/principal.jpg',
+    imagenSatelital: '/campos/mercedes-450/satelital.jpg',
+    galeria: [
+      '/campos/mercedes-450/galeria-1.jpg',
+      '/campos/mercedes-450/galeria-2.jpg',
+      '/campos/mercedes-450/galeria-3.jpg',
+    ],
+  },
+  {
+    id: 'mercedes-500',
+    nombre: 'Campo Mercedes 500',
+    zona: 'Mercedes, Buenos Aires',
+    // El informe indica 513 hectareas; se postea 500 (redondeo comercial).
+    hectareas: 500,
+    tipo: 'Agrícola-ganadero',
+    aptitud: 'Agricultura (40%) + ganadería',
+    // Precio sin sufijo "/ha" en el mensaje original; se asume por hectarea.
+    precio: 'USD 4.000.000',
+    precioPorHectarea: 'USD 8.000/ha',
+    resumen:
+      'Campo agrícola-ganadero de 500 hectáreas en Mercedes, Buenos Aires, 40% agrícola. Casa principal importante con pileta de natación, casa de huéspedes y casa de encargado. Galpón cerrado con techo parabólico y piso de hormigón, tres silos de chapa para acopio de cereal, manga y corrales para bovinos, manga y corrales para cerdos, y 17 potreros con bebida.',
+    destacados: [
+      '40% de aptitud agrícola',
+      '17 potreros con bebida',
+      'Casa principal con pileta + casa de huéspedes',
+    ],
+    sembrado: '~200 ha (40% agrícola)',
+    contacto: {
+      whatsapp: '5491169839411',
+      telefonoDisplay: '+54 9 11 6983-9411',
+      instagram: '@campos.solohacienda',
+    },
+    fotoPrincipal: '/campos/mercedes-500/principal.jpg',
+    imagenSatelital: '/campos/mercedes-500/satelital.jpg',
+    galeria: [
+      '/campos/mercedes-500/galeria-1.jpg',
+      '/campos/mercedes-500/galeria-2.jpg',
+      '/campos/mercedes-500/galeria-3.jpg',
+    ],
+  },
+  {
+    id: 'bragado',
+    nombre: 'Campo Bragado',
+    zona: 'Bragado, Buenos Aires',
+    hectareas: 200,
+    tipo: 'Agrícola-ganadero',
+    aptitud: 'Agricultura (80%, clase III) + ganadería',
+    // Precio sin sufijo "/ha" en el mensaje original; se asume por hectarea.
+    precio: 'USD 2.000.000',
+    precioPorHectarea: 'USD 10.000/ha',
+    resumen:
+      'Establecimiento de aproximadamente 200 hectáreas en Bragado, con suelos de aptitud agrícola clase III predominantes (cerca del 80% de la superficie) y excelentes rindes. Permite desarrollar trigo, soja, maíz y girasol. El resto del campo es de aptitud ganadera.',
+    destacados: [
+      '80% suelos clase III, excelentes rindes',
+      'Aptos para trigo, soja, maíz y girasol',
+      'Resto de aptitud ganadera',
+    ],
+    suelos: 'Clases IIIes, VIII, VIws',
+    contacto: {
+      whatsapp: '5491169839411',
+      telefonoDisplay: '+54 9 11 6983-9411',
+      instagram: '@campos.solohacienda',
+    },
+    fotoPrincipal: '/campos/bragado/principal.jpg',
+    imagenSatelital: '/campos/bragado/satelital.jpg',
+    galeria: [
+      '/campos/bragado/galeria-1.jpg',
+      '/campos/bragado/galeria-2.jpg',
+      '/campos/bragado/galeria-3.jpg',
+    ],
+  },
 ];
 
 export function getCampoById(id) {
