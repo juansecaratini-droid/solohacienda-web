@@ -32,15 +32,15 @@ export const CAMPOS = [
   },
   {
     id: 'villegas',
-    nombre: 'Campo Villegas',
-    zona: 'General Villegas, Buenos Aires',
+    nombre: 'Campo Ameghino',
+    zona: 'Ameghino, Buenos Aires',
     hectareas: 380,
     tipo: 'Agrícola',
     aptitud: 'Agricultura',
     precio: 'USD 2.090.000',
     precioPorHectarea: 'USD 5.500/ha',
     resumen:
-      'Excelente oportunidad en General Villegas: 380 hectáreas, 220 agrícolas. Acceso por camino real. Relación tierra agrícola/precio muy competitiva para la zona.',
+      'Excelente oportunidad en Ameghino: 380 hectáreas, 220 agrícolas. Acceso por camino real. Relación tierra agrícola/precio muy competitiva para la zona.',
     destacados: [
       '220 has agrícolas sobre 380 totales',
       'Acceso por camino real',
@@ -62,17 +62,17 @@ export const CAMPOS = [
   },
   {
     id: 'vivorata',
-    nombre: 'Campo Vivoratá',
-    zona: 'Vivoratá, Buenos Aires',
-    hectareas: 207,
+    nombre: 'Campo Mar del Plata',
+    zona: 'Mar del Plata, Buenos Aires',
+    hectareas: 200,
     tipo: 'Agrícola',
     aptitud: 'Agricultura',
     precio: 'USD 1.697.400',
-    precioPorHectarea: 'USD 8.200/ha',
+    precioPorHectarea: 'USD 8.487/ha',
     resumen:
-      'Campo de 207 hectáreas en Vivoratá, Buenos Aires, de aptitud agrícola. Se siembran 195 hectáreas, quedando fuera de producción las 3 hectáreas del casco, además del desperdicio generado por tanques, molinos y retiros de alambrados. Cuenta con 8 hectáreas de bajos (ollas) y un bajito adicional.',
+      'Campo de 200 hectáreas en Mar del Plata, Buenos Aires, de aptitud agrícola. Se siembran 195 hectáreas, quedando fuera de producción las 3 hectáreas del casco, además del desperdicio generado por tanques, molinos y retiros de alambrados. Cuenta con 8 hectáreas de bajos (ollas) y un bajito adicional.',
     destacados: [
-      '195 has sembradas sobre 207 totales',
+      '195 has sembradas sobre 200 totales',
       'Aptitud agrícola',
       '8 has de bajos (ollas) + un bajito adicional',
     ],
@@ -85,39 +85,6 @@ export const CAMPOS = [
     fotoPrincipal: '/campos/vivorata/principal.jpg',
     imagenSatelital: '/campos/vivorata/satelital.jpg',
     galeria: ['/campos/vivorata/galeria-1.jpg', '/campos/vivorata/galeria-2.jpg'],
-  },
-  {
-    id: 'blaquier',
-    nombre: 'Campo Blaquier',
-    zona: 'General Villegas, Buenos Aires',
-    hectareas: 380,
-    tipo: 'Agrícola',
-    aptitud: 'Agricultura',
-    // Precio no incluido en el informe: se asume igual a Campo Villegas
-    // (mismo texto/zona en el PDF fuente). Confirmar y ajustar si difiere.
-    precio: 'USD 2.090.000',
-    precioPorHectarea: 'USD 5.500/ha',
-    resumen:
-      'Excelente oportunidad en General Villegas: 380 hectáreas, 220 agrícolas. Acceso por camino real. Relación tierra agrícola/precio muy competitiva para la zona.',
-    destacados: [
-      '220 has agrícolas sobre 380 totales',
-      'Suelos clase IIIs, IVw y VIws',
-      'Acceso por camino real',
-    ],
-    sembrado: '220 ha agrícolas',
-    suelos: 'Clases IIIs, IVw, VIws',
-    contacto: {
-      whatsapp: '5491169839411',
-      telefonoDisplay: '+54 9 11 6983-9411',
-      instagram: '@campos.solohacienda',
-    },
-    fotoPrincipal: '/campos/blaquier/principal.jpg',
-    imagenSatelital: '/campos/blaquier/satelital.jpg',
-    galeria: [
-      '/campos/blaquier/galeria-1.jpg',
-      '/campos/blaquier/galeria-2.jpg',
-      '/campos/blaquier/galeria-3.jpg',
-    ],
   },
   {
     id: 'mercedes',
@@ -361,8 +328,8 @@ export const CAMPOS = [
   },
   {
     id: 'santos-unzue',
-    nombre: 'Campo Santos Unzué',
-    zona: 'Santos Unzué, Buenos Aires',
+    nombre: 'Campo 9 de Julio',
+    zona: '9 de Julio, Buenos Aires',
     hectareas: 170,
     tipo: 'Agrícola',
     aptitud: 'Agricultura (soja, en arrendamiento)',
@@ -372,7 +339,7 @@ export const CAMPOS = [
     precio: 'USD 1.275.000',
     precioPorHectarea: 'USD 7.500/ha',
     resumen:
-      'Campo de 170 hectáreas en Santos Unzué. Se siembran todos los años por contrato 140 hectáreas; el resto presenta algunos bajos. En años normales se siembra la totalidad del campo, alquilado en 12 qq de soja. A 11 km de la Ruta 65 y 30 km de la Ruta 205.',
+      'Campo de 170 hectáreas en 9 de Julio. Se siembran todos los años por contrato 140 hectáreas; el resto presenta algunos bajos. En años normales se siembra la totalidad del campo, alquilado en 12 qq de soja. A 11 km de la Ruta 65 y 30 km de la Ruta 205.',
     destacados: [
       '140 has sembradas por contrato todos los años',
       'Alquiler equivalente a 12 qq de soja',
