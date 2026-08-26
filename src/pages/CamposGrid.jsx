@@ -43,27 +43,34 @@ export default function CamposGrid() {
     []
   );
 
-  const filtrados = useMemo(() => {
-    const min = haMin ? Number(haMin) : null;
-    const max = haMax ? Number(haMax) : null;
-    return CAMPOS.filter((c) => {
-      if (tipoFiltro !== TODOS && c.tipo !== tipoFiltro) return false;
-      if (zonaFiltro !== TODAS && c.zona !== zonaFiltro) return false;
-      if (min !== null && c.hectareas < min) return false;
-      if (max !== null && c.hectareas > max) return false;
-      return true;
-    });
-  }, [tipoFiltro, zonaFiltro, haMin, haMax]);
-
-  const destacado = filtrados.find((c) => c.destacado);
-  const resto = filtrados.filter((c) => c.id !== destacado?.id);
-
   const cantidadFiltrosActivos =
     (tipoFiltro !== TODOS ? 1 : 0) +
     (zonaFiltro !== TODAS ? 1 : 0) +
     (haMin !== '' ? 1 : 0) +
     (haMax !== '' ? 1 : 0);
   const hayFiltrosActivos = cantidadFiltrosActivos > 0;
+
+  const filtrados = useMemo(() => {
+    const min = haMin ? Number(haMin) : null;
+    const max = haMax ? Number(haMax) : null;
+    const resultado = CAMPOS.filter((c) => {
+      if (tipoFiltro !== TODOS && c.tipo !== tipoFiltro) return false;
+      if (zonaFiltro !== TODAS && c.zona !== zonaFiltro) return false;
+      if (min !== null && c.hectareas < min) return false;
+      if (max !== null && c.hectareas > max) return false;
+      return true;
+    });
+
+    if (!hayFiltrosActivos) {
+      const precioNumerico = (c) => Number(c.precio.replace(/[^0-9]/g, ''));
+      return [...resultado].sort((a, b) => precioNumerico(b) - precioNumerico(a));
+    }
+
+    return resultado;
+  }, [tipoFiltro, zonaFiltro, haMin, haMax, hayFiltrosActivos]);
+
+  const destacado = filtrados.find((c) => c.destacado);
+  const resto = filtrados.filter((c) => c.id !== destacado?.id);
 
   const limpiarFiltros = () => {
     setTipoFiltro(TODOS);
